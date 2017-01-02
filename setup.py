@@ -36,7 +36,6 @@ setup(
         '315',
         '315mhz'
     ],
-    install_requires=['CHIP_IO.GPIO'],
     scripts=['scripts/chip-rf_send', 'scripts/chip-rf_receive'],
     packages=find_packages(exclude=['contrib', 'docs', 'tests'])
 )
