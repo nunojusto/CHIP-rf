@@ -1,6 +1,8 @@
 CHIP-rf
 ======
 
+!!!!ATTENTION!!!! PRE-ALPHA STAGE... NOT ALL REALLY WORKING !!
+
 Introduction
 ------------
 
@@ -46,12 +48,13 @@ you can find information here `CHIP_IO`_
 Installation (not working yet)
 ------------
 
-On CHIP, install the *CHIP-rf* module via pip.
+On CHIP, install the *CHIP-rf* module.
 
-Python 3::
-
-    # apt-get install python3-pip
-    # pip3 install CHIP-rf
+    git clone git://github.com/nunojusto/CHIP-rf.git
+    cd CHIP-rf
+    sudo python3 setup.py install
+    cd ..
+    sudo rm -rf CHIP-rf
 
 Wiring diagram (example)
 ------------------------
