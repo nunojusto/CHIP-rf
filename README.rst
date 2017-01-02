@@ -82,10 +82,11 @@ Open Source
 
 .. _rc-switch: https://github.com/sui77/rc-switch
 .. _rc-switch Wiki: https://github.com/sui77/rc-switch/wiki
+.. _rpi-rf: https://github.com/milaq/rpi-rf
 .. _CHIP_IO: https://github.com/xtacocorex/CHIP_IO
 .. _BSD Licence: http://www.linfo.org/bsdlicense.html
-.. _GitHub: https://github.com/milaq/rpi-rf
-.. _GitHub issues: https://github.com/milaq/rpi-rf/issues
-.. _scripts: https://github.com/milaq/rpi-rf/blob/master/scripts
-.. _rpi-rf_send: https://github.com/milaq/rpi-rf/blob/master/scripts/rpi-rf_send
-.. _rpi-rf_receive: https://github.com/milaq/rpi-rf/blob/master/scripts/rpi-rf_receive
+.. _GitHub: https://github.com/nunojusto/chip-rf
+.. _GitHub issues: https://github.com/nunojusto/chip-rf/issues
+.. _scripts: https://github.com/nunojusto/chip-rf/blob/master/scripts
+.. _chip-rf_send: https://github.com/nunojusto/chip-rf/blob/master/scripts/chip-rf_send
+.. _chip-rf_receive: https://github.com/nunojusto/chip-rf/blob/master/scripts/chip-rf_receive
