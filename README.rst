@@ -5,7 +5,7 @@ Introduction
 ------------
 
 Python module for sending and receiving 433/315MHz LPD/SRD signals with generic low-cost GPIO RF modules on a CHIP Computer for Next Thing Co (NTC).
-This was ported from rpi-rf module
+This was ported from `rpi-rf`_ module
 
 Protocol and base logic ported from `rc-switch`_.
 
