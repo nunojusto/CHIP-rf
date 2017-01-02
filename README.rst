@@ -61,11 +61,11 @@ CHIP::
     TX:
        GND > PIN (GND)
        VCC > PIN (5V)
-      DATA > PIN 11 (GPIO17)
+      DATA > PIN (CSID1)
 
     RX:
        VCC > PIN (5V)
-      DATA > PIN 13 (GPIO27)
+      DATA > PIN (CSID0)
        GND > PIN (GND)
 
 Usage
