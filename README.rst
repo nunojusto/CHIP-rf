@@ -1,17 +1,18 @@
-rpi-rf
+CHIP-rf
 ======
 
 Introduction
 ------------
 
-Python module for sending and receiving 433/315MHz LPD/SRD signals with generic low-cost GPIO RF modules on a Raspberry Pi.
+Python module for sending and receiving 433/315MHz LPD/SRD signals with generic low-cost GPIO RF modules on a CHIP Computer for Next Thing Co (NTC).
+This was ported from rpi-rf module
 
-Protocol and base logic ported ported from `rc-switch`_.
+Protocol and base logic ported from `rc-switch`_.
 
 Supported hardware
 ------------------
 
-Most generic 433/315MHz capable modules (cost: ~2€) connected via GPIO to a Raspberry Pi.
+Most generic 433/315MHz capable modules (cost: ~2€) connected via GPIO to a CHIP computer.
 
 .. figure:: http://i.imgur.com/vG89UP9.jpg
    :alt: 433modules
@@ -39,7 +40,7 @@ Dependencies
 
 ::
 
-    RPi.GPIO
+    CHIP.GPIO
 
 Installation
 ------------
