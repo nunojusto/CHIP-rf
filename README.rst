@@ -41,62 +41,37 @@ Dependencies
 ::
 
     CHIP.GPIO
+you can find information here `CHIP_IO`_
 
-Installation
+Installation (not working yet)
 ------------
 
-On your Raspberry Pi, install the *rpi_rf* module via pip.
+On CHIP, install the *CHIP-rf* module via pip.
 
 Python 3::
 
     # apt-get install python3-pip
-    # pip3 install rpi-rf
+    # pip3 install CHIP-rf
 
 Wiring diagram (example)
 ------------------------
 
-Raspberry Pi 1/2(B+)::
-
-                       RPI GPIO HEADER
-                  ____________
-                 |        ____|__
-                 |       |    |  |
-                 |     01|  . x  |02
-                 |       |  . x__|________       RX
-                 |       |  . x__|______  |   ________
-                 |       |  . .  |      | |  |        |
-       TX        |   ____|__x .  |      | |__|VCC     |
-     _______     |  |  __|__x .  |      |    |        |
-    |       |    |  | |  |  x____|______|____|DATA    |
-    |    GND|____|__| |  |  . .  |      |    |        |
-    |       |    |    |  |  . .  |      |    |DATA    |
-    |    VCC|____|    |  |  . .  |      |    |        |
-    |       |         |  |  . .  |      |____|GND     |
-    |   DATA|_________|  |  . .  |           |________|
-    |_______|            |  . .  |
-                         |  . .  |
-                         |  . .  |
-                         |  . .  |
-                         |  . .  |
-                         |  . .  |
-                         |  . .  |
-                       39|  . .  |40
-                         |_______|
+CHIP::
 
     TX:
-       GND > PIN 09 (GND)
-       VCC > PIN 02 (5V)
+       GND > PIN (GND)
+       VCC > PIN (5V)
       DATA > PIN 11 (GPIO17)
 
     RX:
-       VCC > PIN 04 (5V)
+       VCC > PIN (5V)
       DATA > PIN 13 (GPIO27)
-       GND > PIN 06 (GND)
+       GND > PIN (GND)
 
 Usage
 -----
 
-See `scripts`_ (`rpi-rf_send`_, `rpi-rf_receive`_) which are also shipped as cmdline tools.
+See `scripts`_ (`chip-rf_send`_, `chip-rf_receive`_) which are also shipped as cmdline tools.
 
 Open Source
 -----------
@@ -107,6 +82,7 @@ Open Source
 
 .. _rc-switch: https://github.com/sui77/rc-switch
 .. _rc-switch Wiki: https://github.com/sui77/rc-switch/wiki
+.. _CHIP_IO: https://github.com/xtacocorex/CHIP_IO
 .. _BSD Licence: http://www.linfo.org/bsdlicense.html
 .. _GitHub: https://github.com/milaq/rpi-rf
 .. _GitHub issues: https://github.com/milaq/rpi-rf/issues

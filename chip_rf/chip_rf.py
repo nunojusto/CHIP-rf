@@ -1,12 +1,12 @@
 """
-Sending and receiving 433/315Mhz signals with low-cost GPIO RF Modules on a Raspberry Pi.
+Sending and receiving 433/315Mhz signals with low-cost GPIO RF Modules on a CHIP from NTC.
 """
 
 import logging
 import time
 from collections import namedtuple
 
-from RPi import GPIO
+import CHIP_IO.GPIO as GPIO
 
 MAX_CHANGES = 67
 

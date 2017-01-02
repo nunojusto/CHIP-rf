@@ -7,16 +7,16 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
     long_description = f.read()
 
 setup(
-    name='rpi-rf',
-    version='0.9.6',
-    author='Micha LaQua',
-    author_email='micha.laqua@gmail.com',
-    description='Sending and receiving 433/315MHz signals with low-cost GPIO RF modules on a Raspberry Pi',
+    name='chip-rf',
+    version='0.0.1',
+    author='Nuno Justo',
+    author_email='nuno@justoweb.com',
+    description='This is a port for CHIP from the amazing module rpi-rf for sending and receiving 433/315MHz signals with low-cost GPIO RF modules on a Raspberry Pi',
     long_description=long_description,
-    url='https://github.com/milaq/rpi-rf',
+    url='https://github.com/nunojusto/chip-rf',
     license='BSD',
     classifiers=[
-        'Development Status :: 4 - Beta',
+        'Development Status :: 1 - Alpha',
         'Intended Audience :: Developers',
         'Topic :: Software Development :: Build Tools',
         'License :: OSI Approved :: BSD License',
@@ -25,9 +25,9 @@ setup(
         'Topic :: Software Development :: Libraries :: Python Modules'
     ],
     keywords=[
-        'rpi',
-        'raspberry',
-        'raspberry pi',
+        'chip',
+        'chip computer',
+        'chip ntc',
         'rf',
         'gpio',
         'radio',
@@ -36,7 +36,7 @@ setup(
         '315',
         '315mhz'
     ],
-    install_requires=['RPi.GPIO'],
-    scripts=['scripts/rpi-rf_send', 'scripts/rpi-rf_receive'],
+    install_requires=['CHIP_IO.GPIO'],
+    scripts=['scripts/chip-rf_send', 'scripts/chip-rf_receive'],
     packages=find_packages(exclude=['contrib', 'docs', 'tests'])
 )
