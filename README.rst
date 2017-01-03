@@ -1,7 +1,7 @@
 CHIP-rf
 ======
 
-!!!!ATTENTION!!!! PRE-ALPHA STAGE... NOT ALL REALLY WORKING !!
+!!!!ATTENTION!!!! PRE-ALPHA STAGE... NOT ALL REALLY WORKING !!!
 
 Introduction
 ------------
@@ -40,26 +40,29 @@ For a full list of compatible devices and chipsets see the `rc-switch Wiki`_
 Dependencies
 ------------
 
-::
-
-    CHIP.GPIO
+    CHIP_IO.GPIO
 you can find information here `CHIP_IO`_
 
-Installation (not working yet)
+Installation
 ------------
 
-On CHIP, install the *CHIP-rf* module.
+        git clone git://github.com/nunojusto/CHIP-rf.git
+        cd CHIP-rf
 
-    git clone git://github.com/nunojusto/CHIP-rf.git
-    cd CHIP-rf
-    sudo python3 setup.py install
-    cd ..
-    sudo rm -rf CHIP-rf
+On CHIP, install the *CHIP-rf* module
+
+```
+git clone git://github.com/nunojusto/CHIP-rf.git
+cd CHIP-rf
+sudo python3 setup.py install
+cd ..
+sudo rm -rf CHIP-rf
+```
 
 Wiring diagram (example)
 ------------------------
 
-CHIP::
+CHIP:
 
     TX:
        GND > PIN (GND)
