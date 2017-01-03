@@ -47,17 +47,17 @@ Installation
 ------------
 
 On CHIP, install the *CHIP-rf* module:
-``` 
-git clone git://github.com/nunojusto/CHIP-rf.git  
-cd CHIP-rf
 
-sudo python3 setup.py install
+	git clone git://github.com/nunojusto/CHIP-rf.git  
 
-cd ..
+	cd CHIP-rf
 
-sudo rm -rf CHIP-rf  
+	sudo python3 setup.py install
 
-```
+	cd ..
+
+	sudo rm -rf CHIP-rf  
+
 
 Wiring diagram (example)
 ------------------------
@@ -83,13 +83,9 @@ See `scripts`_ (`chip-rf_send`_, `chip-rf_receive`_) which are also shipped as c
 
 Example:
 
-```  
+	sudo ./chip-rf_receive -g XIO-P0
 
-sudo ./chip-rf_receive -g XIO-P0
-
-2017-01-02 18:51:48 - [INFO] chip-rf_receive: Listening for codes on GPIO XIO-P0  
-
-```
+	2017-01-02 18:51:48 - [INFO] chip-rf_receive: Listening for codes on GPIO XIO-P0  
 
 Open Source
 -----------
