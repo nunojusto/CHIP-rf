@@ -48,11 +48,11 @@ Installation
 
 On CHIP, install the *CHIP-rf* module:
 ```
-git clone git://github.com/nunojusto/CHIP-rf.git
-cd CHIP-rf
-sudo python3 setup.py install
-cd ..
-sudo rm -rf CHIP-rf
+git clone git://github.com/nunojusto/CHIP-rf.git  
+cd CHIP-rf  
+sudo python3 setup.py install  
+cd ..  
+sudo rm -rf CHIP-rf  
 ```
 
 Wiring diagram (example)
@@ -61,19 +61,27 @@ Wiring diagram (example)
 CHIP:
 
     TX:
-    GND > PIN (GND)
-    VCC > PIN (5V)
-    DATA > PIN (XIO-P1)
+        GND > PIN (GND)  
+        VCC > PIN (5V)  
+        DATA > PIN (XIO-P1)  
 
     RX:
-    VCC > PIN (5V)
-    DATA > PIN (XIO-P0)
-    GND > PIN (GND)
+        VCC > PIN (5V)  
+        DATA > PIN (XIO-P0)  
+        GND > PIN (GND)  
+
+NOTE: DATA only works on pins XIO-P0 to XIO-P7, AP-EINT1, and AP-EINT3. All the other pins are unable to cause an interrupt.
 
 Usage
 -----
 
 See `scripts`_ (`chip-rf_send`_, `chip-rf_receive`_) which are also shipped as cmdline tools.
+
+Example:
+```
+sudo ./chip-rf_receive -g XIO-P0  
+2017-01-02 18:51:48 - [INFO] chip-rf_receive: Listening for codes on GPIO XIO-P0
+```
 
 Open Source
 -----------
