@@ -61,14 +61,14 @@ Wiring diagram (example)
 CHIP:
 
     TX:
-        GND > PIN (GND)  
-        VCC > PIN (5V)  
-        DATA > PIN (XIO-P1)  
+        - GND > PIN (GND)  
+        - VCC > PIN (5V)  
+        - DATA > PIN (XIO-P1)  
 
     RX:
-        VCC > PIN (5V)  
-        DATA > PIN (XIO-P0)  
-        GND > PIN (GND)  
+        - VCC > PIN (5V)  
+        - DATA > PIN (XIO-P0)  
+        - GND > PIN (GND)  
 
 NOTE: DATA only works on pins XIO-P0 to XIO-P7, AP-EINT1, and AP-EINT3. All the other pins are unable to cause an interrupt.
 
