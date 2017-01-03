@@ -48,11 +48,11 @@ Installation
 
 On CHIP, install the *CHIP-rf* module:
 ```
-git clone git://github.com/nunojusto/CHIP-rf.git<br>
-cd CHIP-rf<br>
-sudo python3 setup.py install<br>
-cd ..<br>
-sudo rm -rf CHIP-rf<br>
+git clone git://github.com/nunojusto/CHIP-rf.git  
+cd CHIP-rf  
+sudo python3 setup.py install  
+cd ..  
+sudo rm -rf CHIP-rf  
 ```
 
 Wiring diagram (example)
