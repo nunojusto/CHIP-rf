@@ -60,14 +60,14 @@ Wiring diagram (example)
 CHIP:
 
     TX:
-		GND > PIN (GND)
-		VCC > PIN (5V)
-		DATA > PIN (CSID1)
+	GND > PIN (GND)
+	VCC > PIN (5V)
+	DATA > PIN (CSID1)
 
     RX:
-		VCC > PIN (5V)
-		DATA > PIN (CSID0)
-		GND > PIN (GND)
+	VCC > PIN (5V)
+	DATA > PIN (CSID0)
+	GND > PIN (GND)
 
 Usage
 -----
