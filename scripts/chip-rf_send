@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO, datefmt='%Y-%m-%d %H:%M:%S',
 parser = argparse.ArgumentParser(description='Sends a decimal code via a 433/315MHz GPIO device')
 parser.add_argument('code', metavar='CODE', type=int,
                     help="Decimal code to send")
-parser.add_argument('-g', dest='gpio', type=int, default='CSID1',
+parser.add_argument('-g', dest='gpio', type=str, default='CSID1',
                     help="GPIO pin (Default: CSID1)")
 parser.add_argument('-p', dest='pulselength', type=int, default=None,
                     help="Pulselength (Default: 350)")
