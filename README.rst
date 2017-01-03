@@ -1,8 +1,6 @@
 CHIP-rf
 ======
 
-!!!!ATTENTION!!!! PRE-ALPHA STAGE... NOT ALL REALLY WORKING !!!
-
 Introduction
 ------------
 
