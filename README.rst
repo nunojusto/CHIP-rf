@@ -46,18 +46,13 @@ you can find information here `CHIP_IO`_
 Installation
 ------------
 
-        git clone git://github.com/nunojusto/CHIP-rf.git
-        cd CHIP-rf
+On CHIP, install the *CHIP-rf* module:
 
-On CHIP, install the *CHIP-rf* module
-
-```
-git clone git://github.com/nunojusto/CHIP-rf.git
-cd CHIP-rf
-sudo python3 setup.py install
-cd ..
-sudo rm -rf CHIP-rf
-```
+    git clone git://github.com/nunojusto/CHIP-rf.git
+    cd CHIP-rf
+    sudo python3 setup.py install
+    cd ..
+    sudo rm -rf CHIP-rf
 
 Wiring diagram (example)
 ------------------------
