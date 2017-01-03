@@ -48,8 +48,7 @@ Installation
 
 On CHIP, install the *CHIP-rf* module:
 
-	git clone git://github.com/nunojusto/CHIP-rf.git  
-
+	git clone git://github.com/nunojusto/CHIP-rf.git\n  
 	cd CHIP-rf
 
 	sudo python3 setup.py install
